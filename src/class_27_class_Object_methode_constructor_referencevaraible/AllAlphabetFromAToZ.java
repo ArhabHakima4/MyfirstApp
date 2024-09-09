@@ -4,7 +4,7 @@ public class AllAlphabetFromAToZ {
     public void printAllAlphabetFromAToZ () {
         System.out.println("All Alphabet from A to Z");
         for (char a ='a'; a <= 'z'; a++){
-            System.out.println(a);
+            System.out.print(" "+a);
         }
     }
 

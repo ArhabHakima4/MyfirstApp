@@ -7,14 +7,14 @@ public class EvenOrOddPrint {
         System.out.print(" Even numbers : ");
         for (int element : a) {
             if (element % 2 == 0) {
-                System.out.print(element);
+                System.out.print(" "+element);
             }
         }
         System.out.println(" ");
         System.out.print(" Odd numbers : ");
         for (int element : a) {
             if (element % 2 != 0) {
-                System.out.print( element);
+                System.out.print(" "+element);
             }
         }
     }

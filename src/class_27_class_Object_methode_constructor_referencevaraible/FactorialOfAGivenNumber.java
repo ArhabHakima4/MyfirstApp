@@ -14,6 +14,6 @@ public class FactorialOfAGivenNumber {
 
     public static void main(String[] args) {
         FactorialOfAGivenNumber FactorialOfAGivenNumber = new FactorialOfAGivenNumber();
-        System.out.println(FactorialOfAGivenNumber.findTheFactorialOfTheGivenNumber(1));
+        System.out.println(FactorialOfAGivenNumber.findTheFactorialOfTheGivenNumber(10));
     }
 }
