@@ -12,6 +12,7 @@ public class CurrentAccount extends BankAccount{
     @Override
     public void withdraw(double amount) {
         if (getBalance() + overdraftLimit >= amount) {
+            updateBalance(getBalance()-amount);
             System.out.println("withdrawn: $"+amount+" from Current Account");
         }else {
             System.out.println("withdrawal denied. Overdraft limit exceeded");

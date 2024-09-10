@@ -22,21 +22,13 @@ public abstract class BankAccount {
         return balance;
     }
     //Encapsulation (Setters)
-    public void setAccountHolderName () {
+    public void setAccountHolderName (String accountHolderName) {
         this.accountHolderName = accountHolderName;
-    }
-
-    public void setAccountNumber(int accountNumber) {
-        this.accountNumber = accountNumber;
-    }
-
-    public void setBalance(double balance) {
-        this.balance = balance;
     }
     //method to deposit money (overloaded)
     public void deposit (double amount) {
         balance = balance + amount;
-        System.out.println("Deposited: $");
+        System.out.println("Deposited: $"+amount);
     }
     public void deposit (double amount, String note) {
         balance = balance + amount;
