@@ -1,0 +1,4 @@
+package class_32_java_8_inheritance_polimorphism_abstraction_encapsulation;
+
+public class TestBankClassMethod2 {
+}
